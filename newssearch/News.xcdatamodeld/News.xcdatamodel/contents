@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CRNewsItem" syncable="YES">
+        <attribute name="newsId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webPublicationDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webUrl" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CRWebContent" syncable="YES">
+        <attribute name="cacheDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="htmlString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlString" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CRNewsItem" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="CRWebContent" positionX="-54" positionY="36" width="128" height="90"/>
+    </elements>
+</model>
